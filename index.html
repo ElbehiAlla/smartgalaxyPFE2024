@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from colorlib.com/etc/lf/Login_v1/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 Jun 2020 07:46:19 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <title>Login V1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0">
+
+    <link rel="icon" type="image1/png" href="images/icons/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" href="vendor1/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="fonts1/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="vendor1/animate/animate.css">
+
+    <link rel="stylesheet" type="text/css" href="vendor1/css-hamburgers/hamburgers.min.css">
+
+    <link rel="stylesheet" type="text/css" href="vendor1/select2/select2.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css1/util.css">
+    <link rel="stylesheet" type="text/css" href="css1/main.css">
+
+</head>
+<script type="text/javascript">function display(form) {
+        event.preventDefault(); // Prevent the form from submitting
+        var email = sessionStorage.getItem('email');
+        var password = sessionStorage.getItem('password');
+
+        if ((form.email.value == "ala.behi@smartgalaxy.com" && form.password.value == "admin") || (form.email.value == email && form.password.value == password)) {
+            setTimeout(function () {
+            //    document.location.href = "https://elbehialla.github.io/Bi_presentation/main.html";
+                              document.location.href = "main.html";
+
+            }, 100);
+        } else {
+            alert("login error");
+        }
+    }</script>
+
+<body>
+    <div class="limiter">
+        <div class="container-login100">
+            <div class="wrap-login100">
+                <div class="login100-pic js-tilt" data-tilt>
+                    <img src="images1/img-01.png" alt="IMG">
+                </div>
+                <form class="login100-form validate-form">
+                    <span class="login100-form-title">
+                        Member Login
+                    </span>
+                    <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                        <input class="input100" type="email" name="email" placeholder="Email">
+                        <span class="focus-input100"></span>
+                        <span class="symbol-input100">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div class="wrap-input100 validate-input" data-validate="Password is required">
+                        <input class="input100" type="password" name="password" placeholder="Password">
+                        <span class="focus-input100"></span>
+                        <span class="symbol-input100">
+                            <i class="fa fa-lock" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div class="container-login100-form-btn">
+                        <button class="login100-form-btn" onClick="display(this.form)">
+                            Login
+                        </button>
+                    </div>
+                  
+                    <div class="text-center p-t-136">
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="vendor1/jquery/jquery-3.2.1.min.js" type="3526dec474fcaf7daae11c0e-text/javascript"></script>
+
+    <script src="vendor1/bootstrap/js/popper.js" type="3526dec474fcaf7daae11c0e-text/javascript"></script>
+    <script src="vendor1/bootstrap/js/bootstrap.min.js" type="3526dec474fcaf7daae11c0e-text/javascript"></script>
+
+    <script src="vendor1/select2/select2.min.js" type="3526dec474fcaf7daae11c0e-text/javascript"></script>
+
+    <script src="vendor1/tilt/tilt.jquery.min.js" type="3526dec474fcaf7daae11c0e-text/javascript"></script>
+    <script type="3526dec474fcaf7daae11c0e-text/javascript">
+        $('.js-tilt').tilt({
+            scale: 1.1
+        })
+    </script>
+
+
+
+    <script src="js1/main.js" type="3526dec474fcaf7daae11c0e-text/javascript"></script>
+    <script src="../../../../ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="3526dec474fcaf7daae11c0e-|49" defer=""></script>
+</body>
+
+</html>
